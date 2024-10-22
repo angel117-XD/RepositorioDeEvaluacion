@@ -33,16 +33,14 @@
 	$array["Bocho"] = "20000";
 
     //ORDENAMOS EL ARRAY DE FORMA ASCENDENTE//
-	
+	sort($array);
+	var_export($array);
 
-	//VOLVEMOS A IMPRIMIR EL ARRAY//
+    //VOLVEMOS A IMPRIMIR EL ARRAY//
 	foreach ($array as $carro => $precio) {
 		echo " El carro " . $carro. " cuesta: ". $precio ."<br>";
 		echo "<p>";
 	}
-	//ORDENAMOS EL ARRAY DE FORMA ASCENDENTE//
-	sort($array);
-	var_export($array);
 	 ?>
 
 </body>
