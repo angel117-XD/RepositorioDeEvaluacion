@@ -20,7 +20,7 @@
 
 	<?php 
     //CREAMOS EL ARRAY//
-	$array = array("Chevrolet Camaro 1979" => "100000", "Dodge Charger 1969" => "75000", "Jeep Rubicon 2003" => "150000", "Kawasaki Ninja 2012" => "120000");
+	$array = array("Chevrolet Camaro 1979" => "100000", "Dodge Charger 1969" => "75000", "Jeep Rubicon 2003" => "150000", "Kawasaki Ninja" => "120000");
 
     //ASOCIAMOS EL AUTO AL PRECIO//
 	foreach($array as $carro => $precio) {
